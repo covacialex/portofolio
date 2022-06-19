@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Google Books API Search",
+    "thumbnail": "./assets/google-books.png",
+    "description": "A project I did as my final presentation for a Frontend programming bootcamp using the Model-View-Controller architecture in vanilla JavaScript. Focusing mainly on the JavaScript part. <br /><br /> It takes information from Google Books and displays the results on search. I've also added the ability to add products in cart based on their API id. Although it's just visual, the JavaScript logic is made for backend implementation.",
+    "source": "https://github.com/covacialex/google-books-api-search",
+    "website": "https://keen-trifle-d8a629.netlify.app/"
+  },
+  {
+    "title": "Mapty",
+    "thumbnail": "./assets/mapty.png",
+    "description": "A running/cycling app I've completed during a Udemy course for learning purposes, using geolocation and the leaflet library for an interactive map.",
+    "source": "https://github.com/covacialex/mapty",
+    "website": "https://elegant-salmiakki-5bfab2.netlify.app/"
+  },
+  {
+    "title": "Entertainment Web App",
+    "thumbnail": "./assets/entertainment-web-app.jpg",
+    "description": "Test test tewsst a352352efafasfasa sv na08d abs90dyas9 dbasevan7a0 diu v2b4b23 or3iurb32v khe12iu ve12be v12iueb12 bekv12 veuo12he vu12e12oevyqw8y8qwb d7wnd 89wydiuqwev",
+    "source": "github.com",
+    "website": "google.com"
+  },
+  {
+    "title": "Entertainment Web App",
+    "thumbnail": "./assets/entertainment-web-app.jpg",
+    "description": "Test test tewsst a352352efafasfasa sv na08d abs90dyas9 dbasevan7a0 diu v2b4b23 or3iurb32v khe12iu ve12be v12iueb12 bekv12 veuo12he vu12e12oevyqw8y8qwb d7wnd 89wydiuqwev",
+    "source": "github.com",
+    "website": "google.com"
+  }
+]

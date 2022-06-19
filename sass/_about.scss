@@ -1,0 +1,60 @@
+.about {
+  // height: 55vh;
+
+  &__container {
+    margin-top: 6.4rem;
+  }
+
+  &__data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5.4rem;
+
+    &__descr {
+      &__text {
+        color: var(--text-color);
+
+        span {
+          color: var(--first-color-alt);
+        }
+      }
+
+      &__button {
+        margin-top: 6.4rem;
+      }
+    }
+
+    &__interests {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      row-gap: 2.4rem;
+
+      &__item {
+        background-color: var(--container-color);
+        display: flex;
+        align-items: center;
+        border-radius: 1rem;
+
+        &-icon {
+          color: var(--first-color);
+          font-size: var(--h2-font-size);
+          margin-left: 1rem;
+        }
+
+        &-text {
+          font-size: var(--smaller-font-size);
+          margin-left: 1rem;
+
+          a {
+            color: var(--first-color-alt);
+            transition: 0.4s;
+
+            &:hover {
+              color: var(--first-color);
+            }
+          }
+        }
+      }
+    }
+  }
+}

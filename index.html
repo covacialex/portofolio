@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covaci Alex</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Alex</a>
+        <!-- Theme change button -->
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home__link" class="nav__link home__link active__link">
+                <i class="bx bx-home"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about__link" class="nav__link about__link"
+                ><i class="bx bx-user"></i
+              ></a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills__link" class="nav__link skills__link"
+                ><i class="bx bx-book"></i
+              ></a>
+            </li>
+            <li class="nav__item">
+              <a href="#works__link" class="nav__link works__link"
+                ><i class="bx bx-briefcase-alt-2"></i
+              ></a>
+            </li>
+            <!-- <li class="nav__item">
+              <a href="#contact__link" class="nav__link contact__link"
+                ><i class="bx bx-message-square-detail"></i
+              ></a>
+            </li> -->
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home__link">
+        <div class="home__container container">
+          <div class="home__data">
+            <span class="home__data__greeting">Hi, I'm</span>
+            <h1 class="home__data__name">Alex Covaci</h1>
+            <h3 class="home__data__specialization">
+              Self-Taught Frontend Developer
+            </h3>
+
+            <div class="home__data__buttons">
+              <a
+                href="assets/English-CV.pdf"
+                class="button button--ghost"
+                target="_blank"
+                >Download CV</a
+              >
+              <a href="#about__link" class="button">About me</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="home__social container">
+          <a
+            href="https://www.linkedin.com/in/alex-covaci-61a9ab229/"
+            class="home__social-link"
+            target="_blank"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          <a
+            href="https://github.com/covacialex"
+            class="home__social-link"
+            target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        <a href="#about" class="home__scroll container">
+          <i class="bx bx-mouse home__scroll-icon"></i>
+          <span class="home__scroll-text">Scroll Down</span>
+        </a>
+      </section>
+
+      <section class="about section" id="about__link">
+        <div class="about__container container">
+          <h3 class="section__title">About Me</h3>
+          <div class="about__data">
+            <ul class="about__data__interests">
+              <li class="about__data__interests__item">
+                <i class="bx bx-bulb about__data__interests__item-icon"></i>
+                <p class="about__data__interests__item-text">
+                  Experience: Junior
+                </p>
+              </li>
+
+              <li class="about__data__interests__item">
+                <i
+                  class="bx bx-book-reader about__data__interests__item-icon"
+                ></i>
+                <p class="about__data__interests__item-text">
+                  I enjoy reading psychology and philosophy books.
+                </p>
+              </li>
+
+              <li class="about__data__interests__item">
+                <i class="bx bx-cycling about__data__interests__item-icon"></i>
+                <p class="about__data__interests__item-text">
+                  I like roaming the country side on my bike. Add me on
+                  <a
+                    href="https://www.strava.com/athletes/87498725"
+                    target="_blank"
+                    >Strava</a
+                  >!
+                </p>
+              </li>
+            </ul>
+            <div class="about__data__descr">
+              <p class="about__data__descr__text">
+                I started pursuing programming in the summer of
+                <span>2021</span>, beginning with a <span>HTML5</span>,
+                <span>CSS3</span>, and a <span>JS</span> course on Udemy. After
+                that, I signed up and finished a
+                <span>Frontend bootcamp</span> in Cluj-Napoca on
+                <span>March 2022</span>. During this time, I've learned and
+                applied techniques such as flexbox, grid, responsive design,
+                Sass, in depth JavaScript and how it works behind the scenes,
+                APIs, classes, the MVC framework, how to work with flowcharts,
+                NPM, Babel, Parcel, and much more. <br /><br />
+                Eager to learn, explore new technologies and face new
+                challenges.
+              </p>
+
+              <a href="#contact__link" class="button about__data__descr__button"
+                >Contact Me</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills__link">
+        <div class="skills__container container">
+          <h3 class="section__title">Skills</h3>
+          <ul class="skills__list">
+            <li class="skills__list__lang">
+              <i class="bx bxl-html5"></i> <span>HTML5</span>
+            </li>
+            <li class="skills__list__lang">
+              <i class="bx bxl-css3"></i><span>CSS3</span>
+            </li>
+            <li class="skills__list__lang">
+              <i class="bx bxl-javascript"></i><span>JavaScript</span>
+            </li>
+            <li class="skills__list__lang">
+              <i class="bx bxl-sass"></i><span>SaSS</span>
+            </li>
+            <li class="skills__list__lang">
+              <i class="bx bxl-github"></i><span>GitHub</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="works section" id="works__link">
+        <div class="works__container container">
+          <h3 class="section__title">Recent Works</h3>
+
+          <div class="wrapper">
+            <div class="carousel">
+              <div class="works__container__completed"></div>
+
+              <ul class="works__container__completed__list"></ul>
+            </div>
+            <button class="next"><i class="bx bx-chevron-right"></i></button>
+            <button class="prev"><i class="bx bx-chevron-left"></i></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact__link">
+        <div class="contact__container container">
+          <h5 class="section__subtitle">Looking for a potential employee?</h5>
+          <h3 class="section__title">Get in touch</h3>
+
+          <div class="contact__container__data">
+            <a
+              href="mailto:alxcovaci96@gmail.com"
+              class="contact__container__data__box"
+              target="_blank"
+            >
+              <i class="bx bxl-gmail contact__container__data__box-img"></i>
+              <span class="contact__container__data__box-text"
+                >alxcovaci96@gmail.com</span
+              >
+            </a>
+            <a
+              href="https://www.linkedin.com/in/alex-covaci-61a9ab229/"
+              class="contact__container__data__box"
+              target="_blank"
+            >
+              <i
+                class="bx bxl-linkedin-square contact__container__data__box-img"
+              ></i>
+              <span class="contact__container__data__box-text"
+                >Alex Covaci</span
+              >
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blur for modal -->
+      <div class="overlay hidden"></div>
+    </main>
+
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>

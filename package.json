@@ -1,0 +1,14 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "Personal portofolio",
+  "main": "js/index.js",
+  "scripts": {
+    "watch:sass": "sass sass/main.scss css/styles.css -w"
+  },
+  "author": "Covaci Alex",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.52.2"
+  }
+}

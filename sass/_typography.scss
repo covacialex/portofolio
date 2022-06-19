@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  // Typography
+  --font-family: "Poppins", sans-serif;
+
+  --header-height: 3.5rem
+
+  //   Font weight
+  --font-sm: 400;
+  --font-md: 500;
+  --font-lg: 600;
+
+    //  Font size
+  --biggest-font-size: 2.8rem; 
+  --h1-font-size: 2.4rem; 
+  --h2-font-size: 2rem; 
+  --h3-font-size: 1.6rem; 
+  --normal-font-size: 1.5rem; 
+  --small-font-size: 1.3rem; 
+  --smaller-font-size: 1.2rem; 
+  --smallest-font-size: 1rem; 
+
+  //   HSL
+  --first-hue: 250;
+  --second-hue: 219;
+  --sat: 66%;
+  --lig: 75%;
+
+  //   Colors -- Dark theme
+  --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 71%);
+  --title-color: hsl(var(--second-hue), 15%, 95%);
+  --text-color: hsl(var(--second-hue), 8%, 75%);
+  --text-color-light: hsl(var(--second-hue), 4%, 55%);
+  --body-color: hsl(var(--second-hue), 48%, 8%);
+  --container-color: hsl(var(--second-hue), 32%, 12%);
+  --menu-color: hsla(var(--second-hue), 32%, 16%, 0.8);
+
+  //   Z-index
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+// Responsive typography
+@media screen and (min-width: 968px) {
+  :root {
+    --biggest-font-size: 4.0rem; //
+    --h1-font-size: 3.6rem; //
+    --h2-font-size: 2.4rem; //
+    --h3-font-size: 2rem; //
+    --normal-font-size: 1.6rem; //
+    --small-font-size: 1.4rem; //
+    --smaller-font-size: 1.3rem; //
+  }
+}
+
+body.light-theme {
+  --title-color: hsl(var(--second-hue), 15%, 15%);
+  --text-color: hsl(var(--second-hue), 8%, 35%);
+  --body-color: hsl(var(--second-hue), 48%, 99%);
+  --container-color: #fff;
+  --menu-color: hsla(var(--second-hue), 32%, 16%, 0.8);
+}
+
+
+

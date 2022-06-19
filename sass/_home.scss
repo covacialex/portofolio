@@ -1,0 +1,121 @@
+.home {
+  height: 100vh;
+  position: relative;
+
+  &__container {
+    margin-top: 7.2rem;
+    padding-top: 3.2rem;
+  }
+
+  &__data {
+    text-align: center;
+
+    &__greeting,
+    &__specialization {
+      font-size: var(--small-font-size);
+      font-weight: var(--font-medium);
+    }
+
+    &__greeting {
+      display: block;
+      color: var(--title-color);
+      margin-bottom: 0.4rem;
+    }
+
+    &__name {
+      font-size: var(--biggest-font-size);
+      margin-bottom: 0.2rem;
+    }
+
+    &__specialization {
+      color: var(--text-color);
+      margin-bottom: 4rem;
+    }
+
+    &__buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2.4rem;
+    }
+  }
+
+  &__social,
+  &__scroll {
+    position: absolute;
+  }
+
+  &__social {
+    left: 0;
+    bottom: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+    &-link {
+      width: max-content;
+      background-color: var(--container-color);
+      color: var(--first-color);
+      padding: 0.8rem;
+      border-radius: 0.2rem;
+      display: flex;
+      font-size: var(--h2-font-size);
+      transition: 0.4s;
+
+      &:hover {
+        background-color: var(--first-color);
+        color: #fff;
+      }
+    }
+
+    &::after {
+      content: "";
+      width: 3.2rem;
+      height: 0.2rem;
+      background-color: var(--first-color);
+      transform: rotate(90deg) translate(1.6rem, -0.4rem);
+    }
+  }
+
+  &__scroll {
+    color: var(--first-color);
+    right: -1.5rem;
+    bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.6rem;
+
+    &-icon {
+      font-size: 2.8rem;
+    }
+
+    &-text {
+      font-size: var(--smaller-font-size);
+      transform: rotate(90deg);
+    }
+  }
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--body-color);
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: var(--font-md);
+  transition: 0.4s;
+
+  &--ghost {
+    background-color: transparent;
+    border: 2px solid var(--first-color);
+    color: var(--first-color);
+  }
+
+  &:hover {
+    background-color: var(--first-color-alt);
+    color: var(--body-color);
+  }
+}
