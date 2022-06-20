@@ -21,10 +21,59 @@
     "website": "google.com"
   },
   {
-    "title": "Entertainment Web App",
-    "thumbnail": "./assets/entertainment-web-app.jpg",
+    "title": "Omnifood",
+    "thumbnail": "./assets/omnifood.png",
     "description": "Test test tewsst a352352efafasfasa sv na08d abs90dyas9 dbasevan7a0 diu v2b4b23 or3iurb32v khe12iu ve12be v12iueb12 bekv12 veuo12he vu12e12oevyqw8y8qwb d7wnd 89wydiuqwev",
-    "source": "github.com",
-    "website": "google.com"
+    "source": "https://github.com/covacialex/Omnifood",
+    "website": "https://silly-kashata-927ae2.netlify.app/"
+  },
+  {
+    "title": "Trillo",
+    "thumbnail": "./assets/trillo.png",
+    "description": "Test test tewsst a352352efafasfasa sv na08d abs90dyas9 dbasevan7a0 diu v2b4b23 or3iurb32v khe12iu ve12be v12iueb12 bekv12 veuo12he vu12e12oevyqw8y8qwb d7wnd 89wydiuqwev",
+    "source": "https://github.com/covacialex/Trillo",
+    "website": "https://whimsical-scone-33f935.netlify.app/"
+  },
+  {
+    "title": "Nexter",
+    "thumbnail": "./assets/nexter.png",
+    "description": "Test test tewsst a352352efafasfasa sv na08d abs90dyas9 dbasevan7a0 diu v2b4b23 or3iurb32v khe12iu ve12be v12iueb12 bekv12 veuo12he vu12e12oevyqw8y8qwb d7wnd 89wydiuqwev",
+    "source": "https://github.com/covacialex/Nexter",
+    "website": "https://serene-tarsier-13d846.netlify.app/"
+  },
+  {
+    "title": "NAtours",
+    "thumbnail": "./assets/natours.jpg",
+    "description": "Test test tewsst a352352efafasfasa sv na08d abs90dyas9 dbasevan7a0 diu v2b4b23 or3iurb32v khe12iu ve12be v12iueb12 bekv12 veuo12he vu12e12oevyqw8y8qwb d7wnd 89wydiuqwev",
+    "source": "https://github.com/covacialex/NAtours",
+    "website": "https://moonlit-baklava-ee4865.netlify.app/"
+  },
+  {
+    "title": "Bankist landing page",
+    "thumbnail": "./assets/bankist-landing.png",
+    "description": "Test test tewsst a352352efafasfasa sv na08d abs90dyas9 dbasevan7a0 diu v2b4b23 or3iurb32v khe12iu ve12be v12iueb12 bekv12 veuo12he vu12e12oevyqw8y8qwb d7wnd 89wydiuqwev",
+    "source": "https://github.com/covacialex/dom-bankist",
+    "website": "https://keen-belekoy-f039b9.netlify.app/"
+  },
+  {
+    "title": "Bankist app",
+    "thumbnail": "./assets/bankist.png",
+    "description": "Test test tewsst a352352efafasfasa sv na08d abs90dyas9 dbasevan7a0 diu v2b4b23 or3iurb32v khe12iu ve12be v12iueb12 bekv12 veuo12he vu12e12oevyqw8y8qwb d7wnd 89wydiuqwev",
+    "source": "https://github.com/covacialex/array-bankist",
+    "website": "https://dulcet-khapse-31802d.netlify.app/"
+  },
+  {
+    "title": "Art gallery website",
+    "thumbnail": "./assets/art-gallery.png",
+    "description": "Test test tewsst a352352efafasfasa sv na08d abs90dyas9 dbasevan7a0 diu v2b4b23 or3iurb32v khe12iu ve12be v12iueb12 bekv12 veuo12he vu12e12oevyqw8y8qwb d7wnd 89wydiuqwev",
+    "source": "https://github.com/covacialex/FME-ArtGalleryWebsite",
+    "website": "https://resplendent-lollipop-3eb01c.netlify.app/"
+  },
+  {
+    "title": "Roll the dice",
+    "thumbnail": "./assets/pig-game.png",
+    "description": "Test test tewsst a352352efafasfasa sv na08d abs90dyas9 dbasevan7a0 diu v2b4b23 or3iurb32v khe12iu ve12be v12iueb12 bekv12 veuo12he vu12e12oevyqw8y8qwb d7wnd 89wydiuqwev",
+    "source": "https://github.com/covacialex/pig-game",
+    "website": "https://spectacular-mousse-86202f.netlify.app/"
   }
 ]
