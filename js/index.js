@@ -30,7 +30,6 @@ const carouselize = function () {
   });
 
   prev.addEventListener("click", function (e) {
-    console.log("prev");
     carousel.scrollBy(-(width + gap), 0);
 
     if (carousel.scrollLeft - width - gap <= 0) {
