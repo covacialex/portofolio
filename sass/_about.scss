@@ -1,6 +1,4 @@
 .about {
-  // height: 55vh;
-
   &__container {
     margin-top: 6.4rem;
   }
@@ -13,6 +11,7 @@
     &__descr {
       &__text {
         color: var(--text-color);
+        // margin-bottom: 3.6rem;
 
         span {
           color: var(--first-color-alt);
@@ -22,7 +21,8 @@
       &__button {
         margin-top: 6.4rem;
         text-align: center;
-        width: auto;
+        // color: var(--first-color-alt);
+        // width: 100%;
       }
     }
 

@@ -348,6 +348,7 @@ img {
 }
 .about__data__descr__button {
   margin-top: 6.4rem;
+  text-align: center;
 }
 .about__data__interests {
   display: grid;

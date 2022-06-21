@@ -82,11 +82,8 @@
     }
 
     &__interests {
-      //   grid-template-columns: repeat(3, 1fr);
-
       &__item {
         height: auto;
-        // background-color: var(--body-color);
         flex-direction: row;
       }
     }
