@@ -7,6 +7,13 @@
     "website": "https://keen-trifle-d8a629.netlify.app/"
   },
   {
+    "title": "Restaurant Delicios",
+    "thumbnail": "./assets/next-restaurant.jpg",
+    "description": "My first project in Next JS done by myself. Using Sanity to easily add, remove or modify products on the back-end server and Stripe for the payment process.",
+    "source": "https://github.com/covacialex/nextjs-restaurant",
+    "website": "https://nextjs-restaurant-six.vercel.app/"
+  },
+  {
     "title": "Mapty",
     "thumbnail": "./assets/mapty.png",
     "description": "A running/cycling app I've completed during a Udemy course for learning purposes, using geolocation and the leaflet library for an interactive map.",
@@ -16,9 +23,16 @@
   {
     "title": "Entertainment Web App",
     "thumbnail": "./assets/entertainment-web-app.jpg",
-    "description": "A challenge from frontendmentor.io. Second project in which I've coded in the MVC framework by myself. The bookmarks don't seem to work when hosted on a live website, but they do on a local server.",
+    "description": "A challenge from frontendmentor.io. Second project in which I've coded in the MVC framework by myself.",
     "source": "https://github.com/covacialex/entertainment-web-app",
     "website": "https://scintillating-haupia-39e0b2.netlify.app/"
+  },
+  {
+    "title": "Art Gallery Website",
+    "thumbnail": "./assets/art-gallery.png",
+    "description": "A challenge from frontendmentor.io. It was one the first projects in which I've coded everything myself.",
+    "source": "https://github.com/covacialex/FME-ArtGalleryWebsite",
+    "website": "https://resplendent-lollipop-3eb01c.netlify.app/"
   },
   {
     "title": "Omnifood",
